@@ -6,7 +6,7 @@ import { ActivatedRoute } from '@angular/router';
   selector: 'album',
   templateUrl: './album.component.html',
   styles: []
-})
+}) 
 export class AlbumComponent {
 
   album: any = {};

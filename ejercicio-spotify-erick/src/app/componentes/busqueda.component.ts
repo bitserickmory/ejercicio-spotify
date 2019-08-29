@@ -13,7 +13,7 @@ export class BusquedaComponent {
 
   constructor( private spotify: SpotifyService) { }
 
-  search(term: string) {
+  search(term: string)  {
     this.loading = true;
 
     this.spotify.getArtists( term )
