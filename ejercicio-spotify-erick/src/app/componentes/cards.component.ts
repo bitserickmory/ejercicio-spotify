@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'cards',
+  selector: 'app-cards',
   templateUrl: './cards.component.html',
   styles: []
 })

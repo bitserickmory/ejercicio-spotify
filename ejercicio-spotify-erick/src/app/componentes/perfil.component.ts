@@ -4,7 +4,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 
 @Component({
-  selector: 'perfil',
+  selector: 'app-user',
   templateUrl: './perfil.component.html',
   styles: []
 })

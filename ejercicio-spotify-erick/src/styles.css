@@ -159,7 +159,9 @@ hr {
 }
 
 #navbarSupportedContent .profile img {
-    width: 40px;
+    width: 30px;
+    margin-right: 5px;
+    margin-top: 5px;
 }
 
 #login-to-continue {
@@ -243,4 +245,7 @@ hr {
 .section-album .fa-heart {
   display: block;
   padding: 15px;
+}
+.center{
+    display: flex;justify-content: center;align-items: center;
 }

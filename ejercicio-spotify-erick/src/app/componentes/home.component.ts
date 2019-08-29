@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { SpotifyService } from './servicio/spotify.service';
 
 @Component({
-  selector: 'app-home',
+  selector: 'home',
   templateUrl: './home.component.html',
   styles: []
 })
@@ -21,7 +21,4 @@ export class HomeComponent {
         this.loading = false;
       });
   }
-
-
-
 }
